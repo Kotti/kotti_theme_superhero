@@ -1,8 +1,7 @@
 import os
-from setuptools import (
-    setup,
-    find_packages,
-)
+from setuptools import find_packages
+from setuptools import setup
+
 
 version = '0.1'
 project = 'kotti_theme_superhero'
@@ -29,9 +28,8 @@ setup(name=project,
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'Kotti',
+        'Kotti',
       ],
-      tests_require=tests_require,
       entry_points="""
       [fanstatic.libraries]
       kotti_theme_superhero = kotti_theme_superhero.static:library
