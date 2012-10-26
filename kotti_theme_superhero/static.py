@@ -10,8 +10,8 @@ library = Library(
     "static")
 superhero_css = Resource(
     library,
-    "bootstrap_superhero.css",
-    minified="bootstrap_superhero.min.css")
+    "bootstrap.css",
+    minified="bootstrap.min.css")
 
 edit_needed = NeededGroup([
     superhero_css,
